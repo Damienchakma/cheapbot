@@ -5,7 +5,7 @@ import win32com.client
 def create_shortcut(
     shortcut_name="CheapGPT.lnk",
     target_script="chatbot_app.py",
-    icon_file="pig.ico"
+    icon_file="give ur ico file name here something like pig.ico"
 ):
     """
     Creates a Windows shortcut on the Desktop referencing `target_script`

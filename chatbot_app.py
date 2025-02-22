@@ -37,7 +37,7 @@ class CheapGPTApp(tk.Tk):
         self.geometry("1200x800")
         self.configure(bg="#ffffff")
         try:
-            self.iconbitmap("pig.ico")
+            self.iconbitmap("set ur ico file here something like pig.ico")
         except Exception as e:
             print("Warning: pig.ico not set:", e)
 
